@@ -60,7 +60,54 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\SocketIO\JSONObject\Editor\JSONChecker.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\AccountService.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\CullAreaEditor.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\PhotonConverter.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\PhotonEditor.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\PhotonEditorUtils.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\PhotonGUI.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\PhotonViewHandler.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\PhotonViewInspector.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\PunSceneSettings.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\ReorderableListResources.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\ServerSettingsInspector.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\Views\PhotonAnimatorViewEditor.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\Views\PhotonRigidbody2DViewEditor.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\Views\PhotonRigidbodyViewEditor.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Editor\PhotonNetwork\Views\PhotonTransformViewEditor.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PhotonPlayer\Editor\PlayerRoomIndexingInspector.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PhotonPlayer\Editor\PunTeamsInspector.cs" />
+    <Compile Include="Assets\PlayFabEditorExtensions\Editor\PlayFabEditor.cs" />
+    <Compile Include="Assets\PlayFabEditorExtensions\Editor\Scripts\Components\ProgressBar.cs" />
+    <Compile Include="Assets\PlayFabEditorExtensions\Editor\Scripts\Components\SubMenuComponent.cs" />
+    <Compile Include="Assets\PlayFabEditorExtensions\Editor\Scripts\Components\TitleDataEditor.cs" />
+    <Compile Include="Assets\PlayFabEditorExtensions\Editor\Scripts\Components\TitleDataViewer.cs" />
+    <Compile Include="Assets\PlayFabEditorExtensions\Editor\Scripts\Components\TitleInternalDataEditor.cs" />
+    <Compile Include="Assets\PlayFabEditorExtensions\Editor\Scripts\Components\TitleInternalDataViewer.cs" />
+    <Compile Include="Assets\PlayFabEditorExtensions\Editor\Scripts\Panels\PlayFabEditorAuthenticate.cs" />
+    <Compile Include="Assets\PlayFabEditorExtensions\Editor\Scripts\Panels\PlayFabEditorDataMenu.cs" />
+    <Compile Include="Assets\PlayFabEditorExtensions\Editor\Scripts\Panels\PlayFabEditorHeader.cs" />
+    <Compile Include="Assets\PlayFabEditorExtensions\Editor\Scripts\Panels\PlayFabEditorHelpMenu.cs" />
+    <Compile Include="Assets\PlayFabEditorExtensions\Editor\Scripts\Panels\PlayFabEditorMenu.cs" />
+    <Compile Include="Assets\PlayFabEditorExtensions\Editor\Scripts\Panels\PlayFabEditorPackages.cs" />
+    <Compile Include="Assets\PlayFabEditorExtensions\Editor\Scripts\Panels\PlayFabEditorSDKTools.cs" />
+    <Compile Include="Assets\PlayFabEditorExtensions\Editor\Scripts\Panels\PlayFabEditorSettings.cs" />
+    <Compile Include="Assets\PlayFabEditorExtensions\Editor\Scripts\Panels\PlayFabEditorToolsMenu.cs" />
+    <Compile Include="Assets\PlayFabEditorExtensions\Editor\Scripts\PlayFabEditorSDK\ISerializer.cs" />
+    <Compile Include="Assets\PlayFabEditorExtensions\Editor\Scripts\PlayFabEditorSDK\PlayFabEditorApi.cs" />
+    <Compile Include="Assets\PlayFabEditorExtensions\Editor\Scripts\PlayFabEditorSDK\PlayFabEditorHttp.cs" />
+    <Compile Include="Assets\PlayFabEditorExtensions\Editor\Scripts\PlayFabEditorSDK\PlayFabEditorModels.cs" />
+    <Compile Include="Assets\PlayFabEditorExtensions\Editor\Scripts\PlayFabEditorSDK\SimpleJson.cs" />
+    <Compile Include="Assets\PlayFabEditorExtensions\Editor\Scripts\Utils\EditorCoroutine.cs" />
+    <Compile Include="Assets\PlayFabEditorExtensions\Editor\Scripts\Utils\PlayFabEditorDataService.cs" />
+    <Compile Include="Assets\PlayFabEditorExtensions\Editor\Scripts\Utils\PlayFabEditorHelper.cs" />
+    <Compile Include="Assets\PlayFabEditorExtensions\Editor\Scripts\Utils\PlayFabEditorPrefsSO.cs" />
+    <Compile Include="Assets\PlayFabEditorExtensions\Editor\Scripts\Utils\PlayFabEditorUtils.cs" />
+    <Compile Include="Assets\PlayFabEditorExtensions\Editor\Scripts\Utils\PlayFabEditorVersion.cs" />
+    <Compile Include="Assets\PlayFabEditorExtensions\Editor\Scripts\Utils\PlayFabGuiFieldHelper.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Editor\PlayFabHelp.cs" />
+    <Compile Include="Assets\PlayFabSdk\Shared\Models\Editor\MakeSharedSettingsObj.cs" />
+    <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.95.0.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/q/Desktop/Avalon Resistance/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -304,9 +351,6 @@
     <Reference Include="UnityEditor.Graphs">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.Android.Extensions">
-      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
@@ -315,6 +359,27 @@
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:/Users/q/Desktop/Avalon Resistance/Assets/Photon Unity Networking/Editor/PhotonNetwork/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.IOSResolver_v1.2.95.0">
+      <HintPath>C:/Users/q/Desktop/Avalon Resistance/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.95.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.JarResolver_v1.2.95.0">
+      <HintPath>C:/Users/q/Desktop/Avalon Resistance/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.95.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandler">
+      <HintPath>C:/Users/q/Desktop/Avalon Resistance/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandlerImpl_v1.2.95.0">
+      <HintPath>C:/Users/q/Desktop/Avalon Resistance/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.95.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>C:/Users/q/Desktop/Avalon Resistance/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>C:/Users/q/Desktop/Avalon Resistance/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/q/Desktop/Avalon Resistance/Library/PackageCache/com.unity.ads@2.3.1/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -693,6 +758,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{0196F273-05A2-1584-F3CE-FA4CAD008B6B}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{5EA4A9C3-E738-5974-C90B-C154188CB3C4}</Project>
       <Name>Assembly-CSharp</Name>

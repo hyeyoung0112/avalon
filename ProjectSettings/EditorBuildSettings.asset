@@ -14,7 +14,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 6cebd1d0e52a1554e9311df9d19e2dca
-  - enabled: 1
-    path: Assets/Scenes/AvalonScene.unity
-    guid: 3b9966bfdd58ed94ebbe68d2e539a368
   m_configObjects: {}
